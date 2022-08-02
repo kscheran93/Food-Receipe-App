@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import Products from './Products';
 
 const App = () => {
+  console.log('testing App')
   const [search,setSearch] = useState('');
   const [data,setData] = useState([]);
   console.log(data);
